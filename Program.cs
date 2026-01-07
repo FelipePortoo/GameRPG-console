@@ -14,7 +14,7 @@ class Program
 
        System.Console.WriteLine("---------- RPG HEROES ----------");
        System.Console.Write("Olá Jogador, deseja começar sua jornada? (S/N)?:");
-       string resposta  = Console.ReadLine()!;
+       string resposta  = Console.ReadLine()!.ToLower();
 
        if (resposta  == "n" || resposta == "não" || resposta == "nao" )
        {
@@ -34,65 +34,42 @@ class Program
 
        while (estaRodando)
        {
-        Console.Clear();
-        System.Console.WriteLine("Escolha Sua Raça:");
-        System.Console.WriteLine("1- Guerreiro");
-        System.Console.WriteLine("2- Mago");
-        System.Console.WriteLine("3 - Arqueiro");
-        System.Console.WriteLine("4- Salvar");
-
+        Console.Clear(); //** LIMPA A TELA PARA NAO POLUIR O CONSOLE
+        System.Console.WriteLine($"Nome:{NovoPersonagem.Nome}");
+        System.Console.WriteLine("Escolha Sua Classe:");
+        System.Console.WriteLine("1 - Guerreiro\n2 - Mago \n3 - Arqueiro\n4 - Sair"); //** FORMA MELHORADA DE ESCREVER NO CONSOLE SEM PRECISAR USAR VARIAS LINHAS
 
         string opcao = Console.ReadLine()!;
+        string classeEscolhida = "";
 
 
-        switch (opcao)
+        switch (opcao) // ** FORMA REDUZIDA E SIMPLIFICADA PARA USAR O SWITCH , deixando o codigo mais compacto.
         {
-            case "1":
-            System.Console.Write("deseja continuar? não será possivel alterar após a confirmação:(S/N)?");
-            resposta = Console.ReadLine()!;
-            if (resposta == "S" || resposta == "sim")
-            {
-                System.Console.WriteLine("Personagem Criado!!");
-            }
-
-            else if (resposta == "nao" || resposta == "n")
-            {
-                return;
-            }
-
+            case "1": classeEscolhida = "Guerreiro";
             break;
-
-            case "2":
-            System.Console.Write("deseja continuar? não será possivel alterar após a confirmação:(S/N)?");
-            resposta = Console.ReadLine()!;
-            if (resposta == "S" || resposta == "sim")
-            {
-                System.Console.WriteLine("Personagem Criado!!");
-            }
-
-            else if (resposta == "nao" || resposta == "n")
-            {
-                return;
-            }
+            case "2": classeEscolhida = "Mago";
             break;
-
-             case "3":
-            System.Console.Write("deseja continuar? não será possivel alterar após a confirmação:(S/N)?");
-            resposta = Console.ReadLine()!;
-            if (resposta == "S" || resposta == "sim")
-            {
-                System.Console.WriteLine("Personagem Criado!!");
-            }
-
-            else if (resposta == "nao" || resposta == "n")
-            {
-                return;
-            }
-
+            case "3": classeEscolhida = "Arqueiro";
             break;
-
             case "4":
+            return;
+            default: continue;
+            
+                
+         }
 
+         System.Console.WriteLine($"Vocẽ escolheu {classeEscolhida}. Confirmar? (S/N)?:");
+         resposta = Console.ReadLine()!.ToLower();
+        
+        if (resposta == "s" || resposta == "sim" )
+        {
+            NovoPersonagem.Raca = classeEscolhida;
+            System.Console.WriteLine($"\nPersonagem {NovoPersonagem.Nome} o {NovoPersonagem.Raca} criado com sucesso!");
+
+            estaRodando = false; //** sai do loop
+        }
+
+           
 
         }
 
@@ -103,4 +80,4 @@ class Program
         
        
     }
-}
+

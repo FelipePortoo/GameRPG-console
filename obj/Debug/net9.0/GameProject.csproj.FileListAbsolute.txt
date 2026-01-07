@@ -12,3 +12,4 @@
 /run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.pdb
 /run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.genruntimeconfig.cache
 /run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/ref/GameProject.dll
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.sourcelink.json
