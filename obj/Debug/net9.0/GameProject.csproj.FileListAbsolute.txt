@@ -1,0 +1,14 @@
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/bin/Debug/net9.0/GameProject
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/bin/Debug/net9.0/GameProject.deps.json
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/bin/Debug/net9.0/GameProject.runtimeconfig.json
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/bin/Debug/net9.0/GameProject.dll
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/bin/Debug/net9.0/GameProject.pdb
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.AssemblyInfoInputs.cache
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.AssemblyInfo.cs
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.csproj.CoreCompileInputs.cache
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.dll
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/refint/GameProject.dll
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.pdb
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.genruntimeconfig.cache
+/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/ref/GameProject.dll

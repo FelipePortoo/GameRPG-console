@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EdVjrrxkbjw=",
+  "success": true,
+  "projectFilePath": "/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/GameProject.csproj",
+  "expectedPackageFiles": [
+    "/home/porto/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.11/microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
