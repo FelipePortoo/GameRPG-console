@@ -13,3 +13,18 @@
 /run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.genruntimeconfig.cache
 /run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/ref/GameProject.dll
 /run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.sourcelink.json
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/bin/Debug/net9.0/GameProject
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/bin/Debug/net9.0/GameProject.deps.json
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/bin/Debug/net9.0/GameProject.runtimeconfig.json
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/bin/Debug/net9.0/GameProject.dll
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/bin/Debug/net9.0/GameProject.pdb
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.AssemblyInfoInputs.cache
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.AssemblyInfo.cs
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.csproj.CoreCompileInputs.cache
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.sourcelink.json
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.dll
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/refint/GameProject.dll
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.pdb
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/GameProject.genruntimeconfig.cache
+/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/obj/Debug/net9.0/ref/GameProject.dll

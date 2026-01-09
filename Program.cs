@@ -1,4 +1,4 @@
-﻿using System.Diagnostics.Contracts;
+﻿using System;
 
 namespace GameProject;
 
@@ -8,7 +8,8 @@ class Program
     {
         bool estaRodando = true;
 
-        Personagem NovoPersonagem = new Personagem();
+        
+        Heroi NovoHeroi = new Heroi();
 
 
 
@@ -27,7 +28,7 @@ class Program
         System.Console.WriteLine("Inciando Tela de Criação de Personagem..");
 
         System.Console.Write("Digite seu Nome:");
-        NovoPersonagem.Nome = Console.ReadLine();
+        NovoHeroi.Nome = Console.ReadLine()!;
         System.Console.WriteLine("Carregando....");
        }
        
@@ -35,7 +36,7 @@ class Program
        while (estaRodando)
        {
         Console.Clear(); //** LIMPA A TELA PARA NAO POLUIR O CONSOLE
-        System.Console.WriteLine($"Nome:{NovoPersonagem.Nome}");
+        System.Console.WriteLine($"Nome:{NovoHeroi.Nome}");
         System.Console.WriteLine("Escolha Sua Classe:");
         System.Console.WriteLine("1 - Guerreiro\n2 - Mago \n3 - Arqueiro\n4 - Sair"); //** FORMA MELHORADA DE ESCREVER NO CONSOLE SEM PRECISAR USAR VARIAS LINHAS
 
@@ -51,33 +52,56 @@ class Program
             break;
             case "3": classeEscolhida = "Arqueiro";
             break;
-            case "4":
-            return;
+            case "4": return;
             default: continue;
-            
-                
          }
 
-         System.Console.WriteLine($"Vocẽ escolheu {classeEscolhida}. Confirmar? (S/N)?:");
+         Console.Write($"Vocẽ escolheu {classeEscolhida}. Confirmar? (S/N)?:");
          resposta = Console.ReadLine()!.ToLower();
         
         if (resposta == "s" || resposta == "sim" )
         {
-            NovoPersonagem.Raca = classeEscolhida;
-            System.Console.WriteLine($"\nPersonagem {NovoPersonagem.Nome} o {NovoPersonagem.Raca} criado com sucesso!");
+            NovoHeroi.Classe = classeEscolhida;
+            System.Console.WriteLine($"\nPersonagem {NovoHeroi.Nome} o {NovoHeroi.Classe} criado com sucesso!");
 
             estaRodando = false; //** sai do loop
         }
+  
+        }
+        
+        //*** EXPLORAÇÃO //
+        estaRodando = true; // Ativa o LOOP NOVAMNTE 
 
-           
+        
+        
+        while (estaRodando)
+        {
+        Console.Clear();
+        System.Console.WriteLine($"Sua Jornada {NovoHeroi.Nome}, Começa Agora..");
+        System.Console.WriteLine($"-----CABANA FLORESTA ------");
+        System.Console.WriteLine("1 - Sair da Cabana\n2 - Vasculhar\n3 -Dormir");
+        
+        string opcaoCabana = Console.ReadLine()!;
+        
+            switch (opcaoCabana)
+            {
+                
+                case "1":
+                System.Console.WriteLine("Saindo da Cabana.."); 
+                estaRodando = false;
+                break;
+                case "2":
+                System.Console.WriteLine("Vasculhando a cabana...."); break;
+                case "3":
+                System.Console.WriteLine("você está dormindo...zzzzz"); break;
 
+             }   
+            
+            
         }
 
-
-
        }
-       
-        
-       
-    }
+        }
+
+    
 

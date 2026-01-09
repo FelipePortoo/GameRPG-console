@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/GameProject.csproj",
+      "projectUniqueName": "/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/GameProject.csproj",
       "projectName": "GameProject",
-      "projectPath": "/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/GameProject.csproj",
+      "projectPath": "/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/GameProject.csproj",
       "packagesPath": "/home/porto/.nuget/packages/",
-      "outputPath": "/run/media/porto/ROOKERN LAMÚRCIO/C#ESTUDO/Projetos/GameProject/obj/",
+      "outputPath": "/mnt/meu_hd/C#ESTUDO/Projetos/GameProject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/porto/.nuget/NuGet/NuGet.Config"

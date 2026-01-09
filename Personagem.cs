@@ -8,18 +8,27 @@ namespace GameProject
     public class Personagem
     {
         public string? Raca{get;set;}
-        public string? Nome{get;set;}
+        public string? Nome {get;set;}
+        
         public int Vida {get;set;}
-        public int Mana {get;set;}
 
+        public int Dano {get;set;}
+        
+
+
+    public void Atacar(Personagem alvo)
+        {
+            System.Console.WriteLine($"{this.Nome} atacou {alvo.Nome} causou {this.Dano} de dano!");
+            alvo.Vida -= this.Dano;
+        }
 
 
         public Personagem(string raca, string nome, int vida, int mana)
         {
-            Raca = raca;
             Nome = nome;
+            Raca = raca;
             Vida = vida;
-            Mana = mana;
+            
         }
 
         public Personagem()
